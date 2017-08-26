@@ -1,6 +1,6 @@
   async getApiData(method) {
     const apiUrl = "https://api.instagram.com/v1/users/self/?access_token="
-    const accessToken = "1560697374.2f123e8.f256118c1aa7495e984bd26f744c9bc4";
+    const accessToken = "";
     switch (method) {
       case 'get':
         const response = await fetch(apiUrl + accessToken);
